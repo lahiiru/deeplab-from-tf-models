@@ -59,10 +59,10 @@ download_and_uncompress() {
 BASE_URL="https://data.deepai.org/"
 FILENAME="PascalVOC2012.zip"
 
-download_and_uncompress "${BASE_URL}" "${FILENAME}"
+#ownload_and_uncompress "${BASE_URL}" "${FILENAME}"
 
 cd "${CURRENT_DIR}"
-
+$WORK_DIR = 'E:/simplifai/'
 # Root path for PASCAL VOC 2012 dataset.
 PASCAL_ROOT="${WORK_DIR}/VOC2012"
 

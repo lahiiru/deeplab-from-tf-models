@@ -29,7 +29,7 @@ from deeplab import common
 from deeplab import model
 from deeplab.datasets import data_generator
 from deeplab.utils import train_utils
-from deployment import model_deploy
+from slim.deployment import model_deploy
 
 slim = tf.contrib.slim
 flags = tf.app.flags
